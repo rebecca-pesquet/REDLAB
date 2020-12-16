@@ -1,0 +1,79 @@
+[15-Dec-2020 08:42:43 UTC] PHP Parse error:  syntax error, unexpected 'wp_footer' (T_STRING) in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\index.php on line 5
+[15-Dec-2020 08:43:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_header() in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\index.php:3
+Stack trace:
+#0 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Utilis...')
+#2 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\index.php(17): require('C:\\Users\\Utilis...')
+#3 {main}
+  thrown in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\index.php on line 3
+[15-Dec-2020 09:41:31 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\formatting.php:1097
+Stack trace:
+#0 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\formatting.php(4503): wp_check_invalid_utf8('')
+#1 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\template.php(726): esc_attr('')
+#2 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\template.php(676): load_template('C:\\Users\\Utilis...', true, Array)
+#3 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\searchform.php(7): get_header()
+#5 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\general-template.php(305): require('C:\\Users\\Utilis...')
+#6 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\searc in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\formatting.php on line 1097
+[15-Dec-2020 09:58:57 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\formatting.php:1097
+Stack trace:
+#0 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\formatting.php(4503): wp_check_invalid_utf8('')
+#1 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\template.php(726): esc_attr('')
+#2 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\template.php(676): load_template('C:\\Users\\Utilis...', true, Array)
+#3 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\searchform.php(7): get_header()
+#5 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\general-template.php(305): require('C:\\Users\\Utilis...')
+#6 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\searc in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\formatting.php on line 1097
+[15-Dec-2020 10:21:11 UTC] PHP Parse error:  syntax error, unexpected ',' in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\comments.php on line 43
+[15-Dec-2020 10:23:06 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\comments.php on line 53
+[15-Dec-2020 15:51:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_searchform() in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\index.php:53
+Stack trace:
+#0 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Utilis...')
+#2 C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\index.php(17): require('C:\\Users\\Utilis...')
+#3 {main}
+  thrown in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\index.php on line 53
+[15-Dec-2020 16:00:08 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-admin\includes\translation-install.php on line 68
+[15-Dec-2020 16:00:08 UTC] PHP Stack trace:
+[15-Dec-2020 16:00:08 UTC] PHP   1. {main}() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-admin\options-general.php:0
+[15-Dec-2020 16:00:08 UTC] PHP   2. wp_get_available_translations() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-admin\options-general.php:159
+[15-Dec-2020 16:00:08 UTC] PHP   3. translations_api() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-admin\includes\translation-install.php:133
+[15-Dec-2020 16:00:08 UTC] PHP   4. trigger_error() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-admin\includes\translation-install.php:68
+[15-Dec-2020 16:46:47 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\class-wp-query.php on line 2245
+[15-Dec-2020 16:46:47 UTC] PHP Stack trace:
+[15-Dec-2020 16:46:47 UTC] PHP   1. {main}() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\index.php:0
+[15-Dec-2020 16:46:47 UTC] PHP   2. require() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\index.php:17
+[15-Dec-2020 16:46:47 UTC] PHP   3. require_once() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-blog-header.php:19
+[15-Dec-2020 16:46:47 UTC] PHP   4. include() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\template-loader.php:106
+[15-Dec-2020 16:46:47 UTC] PHP   5. WP_Query->__construct() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\auteur.php:16
+[15-Dec-2020 16:46:47 UTC] PHP   6. WP_Query->query() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\class-wp-query.php:3559
+[15-Dec-2020 16:46:47 UTC] PHP   7. WP_Query->get_posts() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\class-wp-query.php:3448
+[15-Dec-2020 16:46:47 UTC] PHP   8. strpos() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\class-wp-query.php:2245
+[15-Dec-2020 16:46:47 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\class-wp-query.php on line 2246
+[15-Dec-2020 16:46:47 UTC] PHP Stack trace:
+[15-Dec-2020 16:46:47 UTC] PHP   1. {main}() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\index.php:0
+[15-Dec-2020 16:46:47 UTC] PHP   2. require() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\index.php:17
+[15-Dec-2020 16:46:47 UTC] PHP   3. require_once() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-blog-header.php:19
+[15-Dec-2020 16:46:47 UTC] PHP   4. include() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\template-loader.php:106
+[15-Dec-2020 16:46:47 UTC] PHP   5. WP_Query->__construct() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\auteur.php:16
+[15-Dec-2020 16:46:47 UTC] PHP   6. WP_Query->query() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\class-wp-query.php:3559
+[15-Dec-2020 16:46:47 UTC] PHP   7. WP_Query->get_posts() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\class-wp-query.php:3448
+[15-Dec-2020 16:46:47 UTC] PHP   8. explode() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\class-wp-query.php:2246
+[15-Dec-2020 16:46:47 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\class-wp-query.php on line 2247
+[15-Dec-2020 16:46:47 UTC] PHP Stack trace:
+[15-Dec-2020 16:46:47 UTC] PHP   1. {main}() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\index.php:0
+[15-Dec-2020 16:46:47 UTC] PHP   2. require() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\index.php:17
+[15-Dec-2020 16:46:47 UTC] PHP   3. require_once() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-blog-header.php:19
+[15-Dec-2020 16:46:47 UTC] PHP   4. include() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\template-loader.php:106
+[15-Dec-2020 16:46:47 UTC] PHP   5. WP_Query->__construct() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\auteur.php:16
+[15-Dec-2020 16:46:47 UTC] PHP   6. WP_Query->query() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\class-wp-query.php:3559
+[15-Dec-2020 16:46:47 UTC] PHP   7. WP_Query->get_posts() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\class-wp-query.php:3448
+[15-Dec-2020 16:46:47 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\class-wp-query.php on line 2250
+[15-Dec-2020 16:46:47 UTC] PHP Stack trace:
+[15-Dec-2020 16:46:47 UTC] PHP   1. {main}() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\index.php:0
+[15-Dec-2020 16:46:47 UTC] PHP   2. require() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\index.php:17
+[15-Dec-2020 16:46:47 UTC] PHP   3. require_once() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-blog-header.php:19
+[15-Dec-2020 16:46:47 UTC] PHP   4. include() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\template-loader.php:106
+[15-Dec-2020 16:46:47 UTC] PHP   5. WP_Query->__construct() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-content\themes\redlab\auteur.php:16
+[15-Dec-2020 16:46:47 UTC] PHP   6. WP_Query->query() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\class-wp-query.php:3559
+[15-Dec-2020 16:46:47 UTC] PHP   7. WP_Query->get_posts() C:\Users\Utilisateur\Local Sites\tpblogredlab\app\public\wp-includes\class-wp-query.php:3448
